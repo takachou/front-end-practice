@@ -6,11 +6,20 @@ $text-rendering: auto;
 
 $base-font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
 $base-font-size: 14px;
-$base-font-color: #333;
+$base-font-color:hsl(208, 11%, 55%);
 $base-background-color: #fff;
 
-//$color-primary
+$color-primary: hsl(322, 100%, 66%);
+$color-secondary: hsl(192, 100%, 9%);
+
 //$color-accent
 
 $breakpoint-tablet: 1279px;
 $breakpoint-mobile: 759px;
+
+//path
+$path-image: "../images/";
+$path-font: "../lib/fonts/";
+
+//etc
+$site-size: 1080px + 60;

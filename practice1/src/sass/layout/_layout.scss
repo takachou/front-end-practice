@@ -1,6 +1,18 @@
-//.l-container {
-//
-//  @include max-screen($breakpoint-mobile) {
-//
-//  }
-//}
+.l-container {
+        margin: 0 auto;
+        max-width: $site-size;
+        width: 100%;
+        padding: 0 30px;
+        position: relative;
+
+  @include max-screen($breakpoint-mobile) {}
+}
+.l-main {
+  margin: 0 auto;
+  max-width: $site-size;
+  width: 100%;
+  padding: 0 30px;
+  position: relative;
+
+@include max-screen($breakpoint-mobile) {}
+}

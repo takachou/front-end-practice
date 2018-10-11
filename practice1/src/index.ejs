@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="ja" class="no-js">
+<html lang="en" class="no-js">
 <head>
   <meta charset="UTF-8">
-  <title>PAGE TITLE</title>
-  <% include view/_head %>
+  <title>Huddle landing page with single column layout</title>
+  <% include view/metadata/_head %>
 </head>
 <body>
+    <% include view/modules/_header %>
+  <main class="l-main">
+    <% include view/modules/_intro %>
+    <% include view/modules/_subscribe %>
+  </main>
 <script src="assets/js/app.js" async></script>
 </body>
 </html>
+<% include view/metadata/_head %>
