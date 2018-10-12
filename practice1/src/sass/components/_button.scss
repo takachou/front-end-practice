@@ -1,0 +1,19 @@
+.button {
+    width: 11em;
+    padding: 1.5em 2em;
+    text-align: center;
+    display: inline-block;
+    background-color: $color-primary;
+    border-radius: 5px;
+    color: hsl(360, 100%, 100%);
+    font-weight: 700;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+    &:hover {
+        transform: translateY(-7px);
+    }
+}

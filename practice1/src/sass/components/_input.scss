@@ -1,0 +1,11 @@
+.input {
+    border: 2px  hsla(208, 11%, 55%,0.3) solid;
+    border-radius: 15px;
+    padding: 1.5em 2em;
+    width: 25em;
+    transition: all 0.3s ease 0s;      
+
+    &:focus {
+        box-shadow: 5px 5px 5px hsla(208, 11%, 55%,0.3); 
+    }
+}

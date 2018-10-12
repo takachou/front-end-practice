@@ -1,15 +1,16 @@
 <section class="subscribe">
     <header class="subscribe-header">
-        <h1 class="subscribe-title">
+        <h2 class="subscribe-title">
                 Sign Up For Early Access
-        </h1>
+        </h2>
     </header>
     <form action="./">
-        <div class="col-md-12">
-      <div class="col-md-3 col-sm-12">
-            <input type="email" class="input" placeholder="example@email.com" name="email" id="">
+        <div class="flex flex-space-around">
+      <div class="subscribe-item is-right">
+            <input type="email" class="input" placeholder="example@email.com" name="email" required 
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" id="">
       </div>  
-      <div class="col-md-3 col-sm-12">
+      <div class="subscribe-item is-left">
             <button type="submit" class="button"> Register</button>
       </div>
       </div>
